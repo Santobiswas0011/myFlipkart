@@ -27,10 +27,7 @@ app.use(cors());
 app.use(product_router);
 app.use(user_router);
 
-// for deployment
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static("client/build"));
-}
+
 
 mongoose.connect(process.env.DB_URL, { useUnifiedTopology: true, useNewUrlParser: true }).then(() => {
     console.log('Database is connected');
@@ -42,3 +39,8 @@ mongoose.connect(process.env.DB_URL, { useUnifiedTopology: true, useNewUrlParser
 });
 
 DefaultProduct();
+
+// for deployment
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static("client/build"));
+}
