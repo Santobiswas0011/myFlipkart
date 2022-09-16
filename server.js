@@ -12,6 +12,8 @@ const cors = require("cors");
 
 
 const DefaultProduct = require('./default');
+DefaultProduct();
+
 
 // import router
 const product_router = require('./Router/productRouter');
@@ -38,7 +40,6 @@ mongoose.connect(process.env.DB_URL, { useUnifiedTopology: true, useNewUrlParser
     console.log(err);
 });
 
-DefaultProduct();
 
 // for deployment
 if(process.env.NODE_ENV === "production"){
