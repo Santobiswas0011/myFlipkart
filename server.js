@@ -19,7 +19,6 @@ const user_router = require('./Router/userRouter');
 
 app.use(cookie());
 
-app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
