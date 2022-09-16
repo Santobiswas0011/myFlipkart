@@ -1,0 +1,12 @@
+
+@media  screen and (max-width:725px){
+     .navData{
+        padding-bottom:0px !important;
+     }
+}
+
+
+.asdf{
+   text-decoration: none;
+   list-style: none;
+}

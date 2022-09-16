@@ -1,0 +1,28 @@
+
+.cartBtn{
+   background-color: orange !important;
+   color: #FFFFFF !important;
+   font-weight: bolder !important;
+   width:170px !important;
+   height: 41px !important;
+}
+.buyNowBtn{
+   background-color: orangered !important;
+   color: #FFFFFF !important;
+   font-weight: bolder !important;
+   width:170px !important;
+   margin-left: 10px !important;
+   height: 41px !important;
+   padding-right: 40px !important;
+}
+
+
+.sdkfhsd{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-weight: 600;
+   text-align: justify;
+   
+}

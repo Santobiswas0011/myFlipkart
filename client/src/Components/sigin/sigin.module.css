@@ -1,0 +1,45 @@
+
+.asdkjfh{
+    background-color: orangered;
+    color: #000;
+    text-transform:none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fieldStyle{
+    width: 100% !important;
+    margin-top: 7px !important;
+}
+
+.loginBtn{
+   background-color: orangered !important;
+   text-transform:none !important;
+   width:100% !important;
+   font-size:18px !important;
+   color:#FFFFFF !important;
+   margin-bottom:15px !important;
+}
+
+.loginBtn:hover{
+    background-color: #444 !important;
+}
+
+.requestBtn{
+   background-color: #878787 !important;
+   text-transform:none !important;
+   width:100% !important;
+   font-size:18px !important;
+   color:#fff !important;
+   margin-top:6px !important;
+   margin-bottom:15px !important;
+}
+
+
+.sdkha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
