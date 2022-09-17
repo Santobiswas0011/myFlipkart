@@ -45,3 +45,16 @@ mongoose.connect(process.env.DB_URL, { useUnifiedTopology: true, useNewUrlParser
 if(process.env.NODE_ENV === "production"){
     app.use(express.static("client/build"));
 }
+
+
+/* 
+
+gitignore
+
+node_modules
+package-lock.json
+.env
+client/node_modules
+client/package-lock.json
+
+*/
