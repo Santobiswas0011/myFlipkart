@@ -2,7 +2,7 @@ import axios from "axios";
 // import { getAccessToken } from "../Components/sigin/commonUtlis";
 const jwt_token = sessionStorage.getItem('accessToken');
 
-const URL = "";
+const URL = "http://localhost:8002";
 
 export const postRegisterData = async (data) => {
    try {

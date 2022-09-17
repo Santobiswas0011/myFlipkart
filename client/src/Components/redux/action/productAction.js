@@ -4,7 +4,7 @@ import * as actionType from '../constant/productConstant';
 const jwt_token = sessionStorage.getItem('accessToken');
 // console.log("jwt_token_santo",jwt_token)
 
-const URL = "";
+const URL = "http://localhost:8002";
 
 export const getProductData = () => async (dispatch) => {
    try {
